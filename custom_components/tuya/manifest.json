@@ -1,6 +1,6 @@
 {
   "domain": "tuya",
-  "name": "Tuya",
+  "name": "Tuya-Hombli",
   "codeowners": ["@Tuya", "@zlinoliver", "@frenck"],
   "config_flow": true,
   "dependencies": ["ffmpeg"],
