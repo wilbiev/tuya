@@ -370,14 +370,13 @@ class DPCode(StrEnum):
     WORK_MODE = "work_mode"  # Working mode
     WORK_POWER = "work_power"
     BATTERY_CAPACITY = "BatteryCapacity"  # Level
-    FLOW_COUNT = "FlowCount"  # Counter
     LEFT_TIME = "LeftTime"  # Time
     MANUAL_SWITCH = "ManualSwitch"  # Switch
     MANUAL_TIMER = "ManualTimer"  # Timer
     TIMER_DELAY = "TimerDelay"  # Timer
     WORK_STATUS = "WorkStatus"  # Working mode
     STOP_IRRIGATION = "Stopirrigation"  # Stop irrigation
-    FLOW_SENSOR = "Flow"   # Flow sensor data
+    FLOW_SENSOR = "Flow"  # Flow sensor data
 
 
 @dataclass

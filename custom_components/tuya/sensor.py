@@ -555,13 +555,6 @@ SENSORS: dict[str, tuple[TuyaSensorEntityDescription, ...]] = {
             icon="mdi:water",
             entity_category=EntityCategory.DIAGNOSTIC,
         ),
-        TuyaSensorEntityDescription(
-            key=DPCode.FLOW_COUNT,
-            name="Latest water usage",
-            state_class=SensorStateClass.MEASUREMENT,
-            icon="mdi:water",
-            entity_category=EntityCategory.DIAGNOSTIC,
-        ),
         *BATTERY_SENSORS,
     ),
     # Water Detector
